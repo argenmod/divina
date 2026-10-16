@@ -16,6 +16,8 @@ html{scroll-behavior:smooth;scroll-padding-top:70px}
 body{background:var(--ink);color:var(--ink);font-family:'Patrick Hand',system-ui,sans-serif;font-size:18px;line-height:1.3}
 header{background:var(--ink);color:var(--cream);text-align:center;padding:22px 16px 14px}
 header h1{font-family:'Bowlby One SC',sans-serif;font-size:44px;letter-spacing:1px;line-height:1}
+header .logo{width:150px;height:auto;display:block;margin:0 auto 4px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 header p{font-size:18px;opacity:.85;margin-top:4px}
 nav{position:sticky;top:0;z-index:5;background:var(--ink);display:flex;gap:8px;overflow-x:auto;padding:10px 12px;scrollbar-width:none}
 nav::-webkit-scrollbar{display:none}
@@ -45,7 +47,7 @@ footer{background:var(--ink);color:var(--cream);text-align:center;padding:22px 1
 </style>
 </head>
 <body>
-<header><h1>DIVINA BAR</h1><p>Empanadas argentinas &amp; drinks · Salvador</p></header>
+<header><img class="logo" src="img/logo.png" alt="Divina Bar"><h1 class="sr">DIVINA BAR</h1><p>Empanadas argentinas &amp; drinks · Salvador</p></header>
 <nav><a href="#empanadas-argentinas">Empanadas</a><a href="#combos">Combos</a><a href="#molhos-caseiros">Molhos</a><a href="#delicias-doces">Doces</a><a href="#drinks-e-coqueteis">Drinks</a><a href="#classicos">Clássicos</a><a href="#pra-compartilhar">Sangria</a><a href="#vinhos-argentinos">Vinhos</a><a href="#licores-artesanais">Licores</a><a href="#sem-alcool">Sem álcool</a><a href="#cervejas">Cervejas</a></nav>
 <main>
 <section class="pg" style="background-image:url('img/wallpaper3.jpg')"><article class="card" id="empanadas-argentinas"><h2>EMPANADAS ARGENTINAS</h2><div class="sub"><h3>SABORES TRADICIONAIS</h3><span class="badge">19</span></div><div class="item"><div class="head"><span class="name">✱ CARNE SUAVE</span></div><p class="desc">Com azeitonas.</p></div><div class="item"><div class="head"><span class="name">✱ CARNE PICANTE</span></div><p class="desc">Com uva-passa, temperada com um combinado de 3 tipos de pimenta.</p></div><div class="item"><div class="head"><span class="name">✱ CALABRESA</span></div><p class="desc">Com queijo.</p></div><div class="item"><div class="head"><span class="name">✱ FRANGO</span></div><p class="desc">Com azeitonas.</p></div><div class="item"><div class="head"><span class="name">✱ CEBOLA CARAMELIZADA</span></div><p class="desc">Com queijo.</p></div><div class="item"><div class="head"><span class="name">✱ NAPOLITANA</span></div><p class="desc">Presunto, queijo, tomate e azeitonas.</p></div><div class="item"><div class="head"><span class="name">✱ CREME DE MILHO</span></div></div><div class="item"><div class="head"><span class="name">✱ ROMEU E JULIETA</span></div><p class="desc">Goiabada e queijo.</p></div><div class="sub"><h3>SABORES ESPECIAIS</h3><span class="badge">23</span></div><div class="item"><div class="head"><span class="name">✱ RICOTA E BRÓCOLIS</span></div><p class="desc">Com castanhas.</p></div><div class="item"><div class="head"><span class="name">✱ ATUM</span></div><p class="desc">Fresco e refogado, com azeitonas e ovo cozido.</p></div></article></section>
